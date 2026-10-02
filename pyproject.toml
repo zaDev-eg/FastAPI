@@ -9,4 +9,4 @@ dependencies = [
 ]
 
 [tool.fastapi]
-entrypoint = "main:main"
+entrypoint = "main:app"
