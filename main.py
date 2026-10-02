@@ -4,7 +4,7 @@ from fastapi import FastAPI
 app = FastAPI()
 
 ## the intial EndPoint(Test Server Connection)
-@app.get("/Test-Server-Connection")
+@app.get("/")
 def test_server_connection(): 
     return {
         "message": "The server is up and running ✅"
