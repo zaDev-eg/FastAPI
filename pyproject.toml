@@ -8,5 +8,5 @@ dependencies = [
     "fastapi[standard]>=0.142.2",
 ]
 
-[project.scripts]
+[tool.fastapi]
 entrypoint = "main:main"
